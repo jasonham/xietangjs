@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>后台管理系统登陆</title>
+    <link rel="stylesheet" type="text/css" href="../Public/Css/Admin.css" />
+
+</head>
+<body>
+    <form action="http://www.xietangjs.com/Index/checklogin/" method="post">
+        <div class="loginmenu center">
+            <div class="title center">
+                后台管理系统登陆
+            </div>
+            <div class="line">
+                账户：
+                <input type="text" name="username"/>
+            </div>
+            <div class="line">
+                密码：
+                <input type="password" name="pwd"/>
+            </div>
+            <div class="line">
+                验证：
+                <input style="width: 60px" type="text" name="verify"/>
+                <img SRC="verify/index.html" BORDER="0" style="cursor:pointer" align="absmiddle"/>
+                <a href="login">刷新</a>
+            </div>
+            <div class="line">
+                <input type="submit" value="提交"/>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

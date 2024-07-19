@@ -1,0 +1,30 @@
+.center{
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    height: 150%;
+}
+.title{
+    background-image: url("../images/preview_f2.png");
+    background-repeat: no-repeat;
+    margin:10px 0px 5px 100px;
+    padding-left: 40px;
+    text-align: left;
+    font-weight: bold;
+/*    height: 50px;*/
+/*    line-height: 50px;*/
+
+}
+.loginmenu{
+    margin:15% auto 0% auto;
+    width:350px;
+    border: 2px #666 solid;
+    background-color:#6699ff;
+}
+.line{
+    border-top: 1px #666 solid; 
+    background-color:#fff;
+    height: 40px;
+    line-height: 40px;
+
+}

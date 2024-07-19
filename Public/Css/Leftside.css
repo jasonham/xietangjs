@@ -1,0 +1,41 @@
+.left{
+    float:left;
+
+}
+.left div{
+    width:230px;
+}
+.left .title{
+    height:26px;
+    margin-top: 14px;    
+}
+.left .gsxwl .title{
+    background-image:url('../images/gsxw.png');
+}
+.left .lxwml .title{
+    background-image:url('../images/lxwm.png');
+}
+.left .content div{
+    padding:0px 5px;
+    line-height: 20px;
+    overflow:hidden;   height:25px;   line-height:25px;
+}
+.left .nav .title{
+    background-image:url('../images/jj.png');
+    height:30px;
+/*    background-repeat:no-repeat;*/
+/*    background-attachment:fixed;*/
+    background-position:-20px -55px ;
+    padding-left: 5px;
+    font-weight:900;
+    font-size:13px;
+    color:#666;
+}
+.left .nav .title span{
+    margin-left: 5px;
+    color:#cccccc;
+    font-size: 12px;
+}
+.left .nav p{
+    padding: 5px 80px;
+}
